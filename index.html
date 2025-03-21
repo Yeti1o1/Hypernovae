@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=1000 height=1000 tabindex="-1"></canvas>
+      <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -57,11 +57,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Downloads.loader.js";
+      var loaderUrl = buildUrl + "/Teststuff.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Downloads.data.gz",
-        frameworkUrl: buildUrl + "/Downloads.framework.js.gz",
-        codeUrl: buildUrl + "/Downloads.wasm.gz",
+        dataUrl: buildUrl + "/Teststuff.data.gz",
+        frameworkUrl: buildUrl + "/Teststuff.framework.js.gz",
+        codeUrl: buildUrl + "/Teststuff.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Hyper",
